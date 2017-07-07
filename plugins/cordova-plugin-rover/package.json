@@ -1,0 +1,60 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "C:\\Spiderweb\\P_0319_LT\\cordova-plugin-rover",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "C:\\Spiderweb\\P_0319_LT\\cordova-plugin-rover",
+        "spec": "C:\\Spiderweb\\P_0319_LT\\cordova-plugin-rover",
+        "type": "directory"
+      },
+      "C:\\Spiderweb\\P_0319_LT\\TestRover\\node_modules"
+    ]
+  ],
+  "_from": "..\\cordova-plugin-rover",
+  "_id": "cordova-plugin-rover@0.0.1",
+  "_inCache": true,
+  "_location": "/cordova-plugin-rover",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "C:\\Spiderweb\\P_0319_LT\\cordova-plugin-rover",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "C:\\Spiderweb\\P_0319_LT\\cordova-plugin-rover",
+    "spec": "C:\\Spiderweb\\P_0319_LT\\cordova-plugin-rover",
+    "type": "directory"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "file:..\\cordova-plugin-rover",
+  "_shasum": "4e0ab3bbc4a885c0cc233736541a563914ae7258",
+  "_shrinkwrap": null,
+  "_spec": "C:\\Spiderweb\\P_0319_LT\\cordova-plugin-rover",
+  "_where": "C:\\Spiderweb\\P_0319_LT\\TestRover\\node_modules",
+  "author": {
+    "name": "Vikko Smit"
+  },
+  "cordova": {
+    "id": "cordova-plugin-rover",
+    "platforms": [
+      "android"
+    ]
+  },
+  "dependencies": {},
+  "description": "Support plugin for the StartRover / SportRover application",
+  "devDependencies": {},
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "license": "ISC",
+  "name": "Rover",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "version": "0.0.1"
+}

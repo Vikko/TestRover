@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-rover" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+	<name>Rover</name>
+	<js-module name="rover" src="www/Rover.js">
+		<clobbers target="rover" />
+	</js-module>
+	<platform name="android">
+		<config-file parent="/*" target="res/xml/config.xml">
+			<feature name="Rover">
+				<param name="android-package" value="org.apache.cordova.rover.Rover" />
+			</feature>
+		</config-file>
+		<config-file parent="/*" target="AndroidManifest.xml">
+			<service android:name=".RoverService" />
+			<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+			<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+			<uses-permission android:name="android.permission.INTERNET" />
+		</config-file>
+
+		<source-file src="src/android/Rover.java" target-dir="src/org/apache/cordova/rover/Rover" />
+		<source-file src="src/android/RoverService.java" target-dir="src/org/apache/cordova/RoverService" />
+	</platform>
+</plugin>
